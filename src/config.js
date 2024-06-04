@@ -7,6 +7,8 @@ const requiredEnvVars = Joi.object({
   COOKIE_SECRET: Joi.string().min(32).required(),
   ADMINJS_EMAIL: Joi.string().required(),
   ADMINJS_PASSWORD: Joi.string().required(),
+  DATABASE_URL: Joi.string().uri().required(),
+  TEST_DATABASE_URL: Joi.string().uri().optional(),
 })
 
 function validateEnvVars() {
@@ -26,4 +28,6 @@ export const config = {
     email: env.ADMINJS_EMAIL,
     password: env.ADMINJS_PASSWORD,
   },
+  databaseUrl: env.DATABASE_URL,
+  testDatabaseUrl: env.TEST_DATABASE_URL,
 };

@@ -9,19 +9,26 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "db:create": "npx sequelize-cli db:create",
+    "db:migrate": "npx sequelize-cli db:migrate",
+    "db:seed": "npx sequelize-cli db:seed:all",
     "postdeploy": "",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@adminjs/hapi": "^7.1.0",
+    "@adminjs/sequelize": "^4.1.1",
     "@hapi/boom": "^10.0.1",
     "@hapi/cookie": "^12.0.1",
     "@hapi/hapi": "^21.3.9",
     "@hapi/inert": "^7.1.0",
     "adminjs": "^7.8.1",
     "dotenv": "^16.4.5",
-    "joi": "^17.13.1"
+    "joi": "^17.13.1",
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.19.1",
