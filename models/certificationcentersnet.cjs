@@ -3,7 +3,7 @@ const {
   Model,
 } = require('sequelize');
 
-function model(sequelize, DataTypes) {
+module.exports = (sequelize, DataTypes) => {
   class CertificationCentersNet extends Model {
     /**
      * Helper method for defining associations.
@@ -20,7 +20,8 @@ function model(sequelize, DataTypes) {
     sequelize,
     modelName: 'CertificationCentersNet',
     tableName: 'data_certification_centers_net',
+    updatedAt: false,
+    createdAt: false,
   });
   return CertificationCentersNet;
 }
-module.exports = model;
