@@ -9,7 +9,7 @@ const requiredEnvVars = Joi.object({
   ADMINJS_PASSWORD: Joi.string().required(),
   DATABASE_URL: Joi.string().uri().required(),
   TEST_DATABASE_URL: Joi.string().uri().optional(),
-})
+});
 
 function validateEnvVars() {
   const { error } = requiredEnvVars.validate(env, { allowUnknown: true });

@@ -1,6 +1,6 @@
 'use strict';
 const {
-  Model
+  Model,
 } = require('sequelize');
 
 module.exports = (sequelize, DataTypes) => {
@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   CertificationCenter.init({
     name: DataTypes.STRING,
-    externalId: DataTypes.STRING
+    externalId: DataTypes.STRING,
   }, {
     sequelize,
     modelName: 'CertificationCenter',

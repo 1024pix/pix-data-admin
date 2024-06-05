@@ -7,7 +7,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       certification_center_id: {
         type: Sequelize.INTEGER,
@@ -32,22 +32,22 @@ module.exports = {
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
-        defaultValue: Sequelize.literal('CURRENT_TIMESTAMP')
+        defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
       },
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE,
-        defaultValue: Sequelize.literal('CURRENT_TIMESTAMP')
-      }
+        defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
+      },
     }, {
       uniqueKeys: {
         net_link_unique: {
-          fields: ['certification_center_id', 'certification_centers_net_id']
-        }
-      }
+          fields: ['certification_center_id', 'certification_centers_net_id'],
+        },
+      },
     });
   },
   async down(queryInterface, Sequelize) {
     await queryInterface.dropTable('data_certification_centers_net_links');
-  }
+  },
 };
