@@ -17,6 +17,7 @@ const adminOptions = {
   rootPath: '/admin',
   resources: [
     models.CertificationCenter,
+    models.CertificationCenterNet,
     {
       resource: models.CertificationCenterNetLink,
       options: {
