@@ -1,7 +1,8 @@
 'use strict';
 const {
-  Model
+  Model,
 } = require('sequelize');
+
 module.exports = (sequelize, DataTypes) => {
   class CertificationCentersNetLink extends Model {
     /**
@@ -15,11 +16,11 @@ module.exports = (sequelize, DataTypes) => {
   }
   CertificationCentersNetLink.init({
     certification_center_id: DataTypes.INTEGER,
-    certification_centers_net_id: DataTypes.INTEGER
+    certification_centers_net_id: DataTypes.INTEGER,
   }, {
     sequelize,
     modelName: 'CertificationCentersNetLink',
-    tableName: 'data_certification_centers_net_links'
+    tableName: 'data_certification_centers_net_links',
   });
   return CertificationCentersNetLink;
 };

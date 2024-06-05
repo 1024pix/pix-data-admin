@@ -1,8 +1,9 @@
 'use strict';
 const {
-  Model
+  Model,
 } = require('sequelize');
-const model =  (sequelize, DataTypes) => {
+
+function model(sequelize, DataTypes) {
   class CertificationCentersNet extends Model {
     /**
      * Helper method for defining associations.
@@ -14,12 +15,12 @@ const model =  (sequelize, DataTypes) => {
     }
   }
   CertificationCentersNet.init({
-    name: DataTypes.STRING
+    name: DataTypes.STRING,
   }, {
     sequelize,
     modelName: 'CertificationCentersNet',
-    tableName: 'data_certification_centers_net'
+    tableName: 'data_certification_centers_net',
   });
   return CertificationCentersNet;
-};
+}
 module.exports = model;
