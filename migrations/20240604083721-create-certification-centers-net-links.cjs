@@ -3,12 +3,6 @@
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('data_certification_centers_net_links', {
-      id: {
-        allowNull: false,
-        autoIncrement: true,
-        primaryKey: true,
-        type: Sequelize.INTEGER,
-      },
       certification_center_id: {
         type: Sequelize.INTEGER,
         references: {
@@ -18,6 +12,8 @@ module.exports = {
           key: 'id',
         },
         allowNull: false,
+        primaryKey: true,
+        isId: true,
       },
       certification_centers_net_id: {
         type: Sequelize.INTEGER,
@@ -28,6 +24,7 @@ module.exports = {
           key: 'id',
         },
         allowNull: false,
+        primaryKey: true,
       },
       createdAt: {
         allowNull: false,
@@ -47,7 +44,7 @@ module.exports = {
       },
     });
   },
-  async down(queryInterface, Sequelize) {
+  async down(queryInterface) {
     await queryInterface.dropTable('data_certification_centers_net_links');
   },
 };

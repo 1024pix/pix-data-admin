@@ -2,7 +2,7 @@
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
-  async up(queryInterface, Sequelize) {
+  async up(queryInterface) {
     const certificationCenter = await queryInterface.sequelize.query('SELECT id FROM "certification-centers" WHERE name = \'Centre de certification de Pix\'');
     const certificationCentersNet = await queryInterface.sequelize.query('SELECT id FROM data_certification_centers_net WHERE name = \'Les centres de Pix\'');
 
@@ -12,7 +12,7 @@ module.exports = {
     }], {});
   },
 
-  async down(queryInterface, Sequelize) {
+  async down(queryInterface) {
     await queryInterface.bulkDelete('data_certification_centers_net_links', null, {});
   },
 };

@@ -21,7 +21,7 @@ const adminOptions = {
     {
       resource: models.CertificationCenterNetLink,
       options: {
-        listProperties: ['id', 'certification_center_id', 'certification_centers_net_id'],
+        listProperties: ['certification_center_id', 'certification_centers_net_id'],
         editProperties: ['certification_center_id', 'certification_centers_net_id'],
       },
     },

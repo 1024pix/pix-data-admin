@@ -4,6 +4,7 @@ import { createServer } from './src/server.js';
   try {
     const server = await createServer();
     await server.start();
+    // eslint-disable-next-line no-console
     console.log('Server running on %s', server.info.uri);
   }
   catch (error) {

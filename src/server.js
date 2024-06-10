@@ -3,6 +3,7 @@ import { plugin as adminjsPlugin } from './adminjs.js';
 import { config } from './config.js';
 
 export async function createServer() {
+  // eslint-disable-next-line new-cap
   const server = new Hapi.server({
     compression: false,
     port: config.port || 3000,
