@@ -2,7 +2,7 @@ import AdminJSHapi from '@adminjs/hapi';
 import * as AdminJSSequelize from '@adminjs/sequelize';
 import { AdminJS } from 'adminjs';
 import { config } from './config.js';
-import { models } from './sequelize.js';
+import { resources } from './resources/index.js';
 
 async function authenticate(email, password) {
   if (email === config.adminjs.email && password === config.adminjs.password) {
@@ -15,17 +15,7 @@ AdminJS.registerAdapter(AdminJSSequelize);
 
 const adminOptions = {
   rootPath: '/admin',
-  resources: [
-    models.CertificationCenter,
-    models.CertificationCenterNet,
-    {
-      resource: models.CertificationCenterNetLink,
-      options: {
-        listProperties: ['certification_center_id', 'certification_centers_net_id'],
-        editProperties: ['certification_center_id', 'certification_centers_net_id'],
-      },
-    },
-  ],
+  resources,
   auth: {
     isSecure: config.environment === 'production',
     cookieName: 'adminjs',

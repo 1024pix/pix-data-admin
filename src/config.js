@@ -9,6 +9,8 @@ const requiredEnvVars = Joi.object({
   ADMINJS_PASSWORD: Joi.string().required(),
   DATABASE_URL: Joi.string().uri().required(),
   TEST_DATABASE_URL: Joi.string().uri().optional(),
+  DATABASE_URL_EXT: Joi.string().uri().optional(),
+  TEST_DATABASE_URL_EXT: Joi.string().uri().optional(),
 });
 
 function validateEnvVars() {
@@ -30,4 +32,7 @@ export const config = {
   },
   databaseUrl: env.DATABASE_URL,
   testDatabaseUrl: env.TEST_DATABASE_URL,
+  externalIsActive: env.DATABASE_URL_EXT !== undefined || env.DATABASE_URL_EXT !== '',
+  databaseUrlExt: env.DATABASE_URL_EXT,
+  testDatabaseUrlExt: env.TEST_DATABASE_URL_EXT,
 };

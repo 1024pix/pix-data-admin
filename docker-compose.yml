@@ -6,3 +6,11 @@ services:
       - '${PIX_DATABASE_PORT:-5432}:5432'
     environment:
       POSTGRES_HOST_AUTH_METHOD: trust
+
+  postgres-ext:
+    image: postgres:14.11-alpine
+    container_name: pix-data-admin-postgres-ext
+    ports:
+      - '${PIX_DATABASE_PORT:-5433}:5432'
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust

@@ -12,4 +12,12 @@ const models = {
   CertificationCenterNetLink: certificationCenterNetLink(sequelize, DataTypes),
 };
 
-export { sequelize, DataTypes, models };
+const sequelizeExt = new Sequelize(config.databaseUrlExt);
+
+const modelsExt = {
+  CertificationCenter: certificationCenter(sequelizeExt, DataTypes),
+  CertificationCenterNet: certificationCenterNet(sequelizeExt, DataTypes),
+  CertificationCenterNetLink: certificationCenterNetLink(sequelizeExt, DataTypes),
+};
+
+export { sequelize, DataTypes, models, sequelizeExt, modelsExt };
