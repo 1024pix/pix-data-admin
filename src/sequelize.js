@@ -12,12 +12,19 @@ const models = {
   CertificationCenterNetLink: certificationCenterNetLink(sequelize, DataTypes),
 };
 
-const sequelizeExt = new Sequelize(config.databaseUrlExt);
+// eslint-disable-next-line import/no-mutable-exports
+let sequelizeExt;
+// eslint-disable-next-line import/no-mutable-exports
+let modelsExt;
 
-const modelsExt = {
-  CertificationCenter: certificationCenter(sequelizeExt, DataTypes),
-  CertificationCenterNet: certificationCenterNet(sequelizeExt, DataTypes),
-  CertificationCenterNetLink: certificationCenterNetLink(sequelizeExt, DataTypes),
-};
+if (config.externalIsActive) {
+  sequelizeExt = new Sequelize(config.databaseUrlExt);
+
+  modelsExt = {
+    CertificationCenter: certificationCenter(sequelizeExt, DataTypes),
+    CertificationCenterNet: certificationCenterNet(sequelizeExt, DataTypes),
+    CertificationCenterNetLink: certificationCenterNetLink(sequelizeExt, DataTypes),
+  };
+}
 
 export { sequelize, DataTypes, models, sequelizeExt, modelsExt };

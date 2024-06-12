@@ -32,7 +32,7 @@ export const config = {
   },
   databaseUrl: env.DATABASE_URL,
   testDatabaseUrl: env.TEST_DATABASE_URL,
-  externalIsActive: env.DATABASE_URL_EXT !== undefined || env.DATABASE_URL_EXT !== '',
+  externalIsActive: env.DATABASE_URL_EXT !== undefined && env.DATABASE_URL_EXT !== '',
   databaseUrlExt: env.DATABASE_URL_EXT,
   testDatabaseUrlExt: env.TEST_DATABASE_URL_EXT,
 };
