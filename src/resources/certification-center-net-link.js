@@ -1,7 +1,7 @@
 import { models, modelsExt } from '../sequelize.js';
 import { config } from '../config.js';
-import { creationHandler } from './creation-handler.js';
-import { editHandler } from './edit-handler.js';
+import { creationHandler } from '../handlers/creation-handler.js';
+import { editHandler } from '../handlers/edit-handler.js';
 import { readOnlyOptions } from './utils.js';
 
 async function create(params, t) {
