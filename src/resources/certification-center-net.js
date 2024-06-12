@@ -1,6 +1,7 @@
 import { models, modelsExt } from '../sequelize.js';
 import { config } from '../config.js';
 import { creationHandler } from './creation-handler.js';
+import {readOnlyOptions} from './utils.js';
 
 async function create(params, t) {
   const created = await models.CertificationCenterNet.create(params, { transaction: t });
@@ -14,6 +15,7 @@ export const certificationCenterNet = {
   resource: models.CertificationCenterNet,
   options: {
     actions: {
+      ...readOnlyOptions,
       new: {
         actionType: 'resource',
         icon: 'Plus',
