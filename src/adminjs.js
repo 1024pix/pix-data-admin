@@ -14,6 +14,9 @@ async function authenticate(email, password) {
 AdminJS.registerAdapter(AdminJSSequelize);
 
 const adminOptions = {
+  branding: {
+    companyName: 'Pix Data Admin',
+  },
   rootPath: '/admin',
   resources,
   auth: {
