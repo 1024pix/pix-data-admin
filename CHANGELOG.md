@@ -1,3 +1,9 @@
+## [1.0.9](https://github.com/1024pix/pix-data-admin/compare/v1.0.8...v1.0.9) (2025-12-16)
+
+### :arrow_up: Montée de version
+
+- [#20](https://github.com/1024pix/pix-data-admin/pull/20) Update dependency postgres to v16
+
 ## [1.0.8](https://github.com/1024pix/pix-data-admin/compare/v1.0.7...v1.0.8) (2025-12-16)
 
 ### :arrow_up: Montée de version
