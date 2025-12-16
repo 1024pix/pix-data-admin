@@ -1,3 +1,9 @@
+## [1.0.8](https://github.com/1024pix/pix-data-admin/compare/v1.0.7...v1.0.8) (2025-12-16)
+
+### :arrow_up: Montée de version
+
+- [#19](https://github.com/1024pix/pix-data-admin/pull/19) Update dependency joi to v18 (dossier racine)
+
 ## [1.0.7](https://github.com/1024pix/pix-data-admin/compare/v1.0.6...v1.0.7) (2025-12-16)
 
 ### :arrow_up: Montée de version
