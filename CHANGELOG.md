@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/1024pix/pix-data-admin/compare/v1.0.3...v1.0.4) (2025-12-16)
+
+### :building_construction: Tech
+
+- [#15](https://github.com/1024pix/pix-data-admin/pull/15) Supprimer l'action d'auto merge
+
 ## [1.0.3](https://github.com/1024pix/pix-data-admin/compare/v1.0.2...v1.0.3) (2025-12-16)
 
 ### :arrow_up: Montée de version
