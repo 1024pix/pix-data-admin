@@ -1,3 +1,9 @@
+## [1.0.6](https://github.com/1024pix/pix-data-admin/compare/v1.0.5...v1.0.6) (2025-12-16)
+
+### :arrow_up: Montée de version
+
+- [#17](https://github.com/1024pix/pix-data-admin/pull/17) Update dependency dotenv to v17 (dossier racine)
+
 ## [1.0.5](https://github.com/1024pix/pix-data-admin/compare/v1.0.4...v1.0.5) (2025-12-16)
 
 ### :arrow_up: Montée de version
