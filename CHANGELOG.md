@@ -1,3 +1,9 @@
+## [1.0.12](https://github.com/1024pix/pix-data-admin/compare/v1.0.11...v1.0.12) (2026-03-03)
+
+### :arrow_up: Montée de version
+
+- [#26](https://github.com/1024pix/pix-data-admin/pull/26) Update dependency eslint-plugin-format to v2 (dossier racine)
+
 ## [1.0.10](https://github.com/1024pix/pix-data-admin/compare/v1.0.9...v1.0.10) (2025-12-16)
 
 ### :arrow_up: Montée de version
