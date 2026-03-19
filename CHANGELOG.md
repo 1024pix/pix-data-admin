@@ -1,3 +1,11 @@
+## [1.0.13](https://github.com/1024pix/pix-data-admin/compare/v1.0.12...v1.0.13) (2026-03-19)
+
+### :arrow_up: Montée de version
+
+- [#24](https://github.com/1024pix/pix-data-admin/pull/24) Update dependency @antfu/eslint-config to v7 (dossier racine) 
+
+### :coffee: Autre
+
 ## [1.0.12](https://github.com/1024pix/pix-data-admin/compare/v1.0.11...v1.0.12) (2026-03-03)
 
 ### :arrow_up: Montée de version
