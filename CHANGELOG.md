@@ -1,3 +1,9 @@
+## [1.0.14](https://github.com/1024pix/pix-data-admin/compare/v1.0.13...v1.0.14) (2026-04-08)
+
+### :arrow_up: Montée de version
+
+- [#28](https://github.com/1024pix/pix-data-admin/pull/28) Update dependency @antfu/eslint-config to v8 (dossier racine)
+
 ## [1.0.13](https://github.com/1024pix/pix-data-admin/compare/v1.0.12...v1.0.13) (2026-03-19)
 
 ### :arrow_up: Montée de version
