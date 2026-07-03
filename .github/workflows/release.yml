@@ -15,5 +15,8 @@ jobs:
       - uses: actions/checkout@v7
 
       - uses: 1024pix/pix-actions/release@main
+        id: semantic
+        with:
+          changelogTitle: "# Pix data admin Changelog"
         env:
           GITHUB_TOKEN: ${{ secrets.PIX_SERVICE_RELEASE_ACTION_TOKEN }}
