@@ -1,3 +1,16 @@
+# Pix data admin Changelog
+
+## [1.0.15](https://github.com/1024pix/pix-data-admin/compare/v1.0.14...v1.0.15) (2026-07-10)
+
+### :building_construction: Tech
+
+- [#34](https://github.com/1024pix/pix-data-admin/pull/34) Ajouter l'id semantic à l'étape de release
+- [#33](https://github.com/1024pix/pix-data-admin/pull/33) Utiliser le token du compte de service Pix pour release
+
+### :arrow_up: Montée de version
+
+- [#32](https://github.com/1024pix/pix-data-admin/pull/32) Update actions/checkout action to v7 (workflows)
+
 ## [1.0.14](https://github.com/1024pix/pix-data-admin/compare/v1.0.13...v1.0.14) (2026-04-08)
 
 ### :arrow_up: Montée de version
