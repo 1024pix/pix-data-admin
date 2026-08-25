@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.16](https://github.com/1024pix/pix-data-admin/compare/v1.0.15...v1.0.16) (2026-08-25)
+
+### :arrow_up: Montée de version
+
+- [#36](https://github.com/1024pix/pix-data-admin/pull/36) Pin actions/checkout action to 3d3c42e
+
 ## [1.0.15](https://github.com/1024pix/pix-data-admin/compare/v1.0.14...v1.0.15) (2026-07-10)
 
 ### :building_construction: Tech
