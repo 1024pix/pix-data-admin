@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.19](https://github.com/1024pix/pix-data-admin/compare/v1.0.18...v1.0.19) (2026-08-26)
+
+### :arrow_up: Montée de version
+
+- [#40](https://github.com/1024pix/pix-data-admin/pull/40) Pin 1024pix/pix-actions action to ebfce29
+
 ## [1.0.18](https://github.com/1024pix/pix-data-admin/compare/v1.0.17...v1.0.18) (2026-08-26)
 
 ### :arrow_up: Montée de version
