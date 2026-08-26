@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.18](https://github.com/1024pix/pix-data-admin/compare/v1.0.17...v1.0.18) (2026-08-26)
+
+### :arrow_up: Montée de version
+
+- [#38](https://github.com/1024pix/pix-data-admin/pull/38) Update dependency eslint to v10
+
 ## [1.0.17](https://github.com/1024pix/pix-data-admin/compare/v1.0.16...v1.0.17) (2026-08-26)
 
 ### :building_construction: Tech
