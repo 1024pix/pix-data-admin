@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.17](https://github.com/1024pix/pix-data-admin/compare/v1.0.16...v1.0.17) (2026-08-26)
+
+### :building_construction: Tech
+
+- [#39](https://github.com/1024pix/pix-data-admin/pull/39) Utiliser la nouvelle configuration js-project de Renovate (techdays)
+
 ## [1.0.16](https://github.com/1024pix/pix-data-admin/compare/v1.0.15...v1.0.16) (2026-08-25)
 
 ### :arrow_up: Montée de version
