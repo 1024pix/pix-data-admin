@@ -1,5 +1,5 @@
 import { createValidationError } from '@adminjs/sequelize';
-import { flat, paramConverter, populator } from 'adminjs';
+import { flat, NotFoundError, paramConverter, populator } from 'adminjs';
 import { sequelize } from '../sequelize.js';
 
 const SEQUELIZE_VALIDATION_ERROR = 'SequelizeValidationError';
