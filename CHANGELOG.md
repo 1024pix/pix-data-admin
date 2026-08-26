@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.21](https://github.com/1024pix/pix-data-admin/compare/v1.0.20...v1.0.21) (2026-08-26)
+
+### :bug: Correction
+
+- [#41](https://github.com/1024pix/pix-data-admin/pull/41) Synchroniser le lockfile avec le package.json
+
 ## [1.0.20](https://github.com/1024pix/pix-data-admin/compare/v1.0.19...v1.0.20) (2026-08-26)
 
 ### :arrow_up: Montée de version
