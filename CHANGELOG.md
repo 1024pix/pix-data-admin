@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.20](https://github.com/1024pix/pix-data-admin/compare/v1.0.19...v1.0.20) (2026-08-26)
+
+### :arrow_up: Montée de version
+
+- [#37](https://github.com/1024pix/pix-data-admin/pull/37) Update dependency @antfu/eslint-config to v9
+
 ## [1.0.19](https://github.com/1024pix/pix-data-admin/compare/v1.0.18...v1.0.19) (2026-08-26)
 
 ### :arrow_up: Montée de version
