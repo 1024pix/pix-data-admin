@@ -1,4 +1,4 @@
-export const readOnlyOptions =  {
+export const readOnlyOptions = {
   edit: {
     isVisible: false,
     isAccessible: false,

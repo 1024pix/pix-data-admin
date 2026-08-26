@@ -1,5 +1,5 @@
 import { createValidationError } from '@adminjs/sequelize';
-import { flat, paramConverter, populator } from 'adminjs';
+import { flat, NotFoundError, paramConverter, populator } from 'adminjs';
 import { sequelize } from '../sequelize.js';
 
 const SEQUELIZE_VALIDATION_ERROR = 'SequelizeValidationError';
@@ -16,7 +16,8 @@ async function editInTransaction({ params, record, edit }) {
       const updatedRecord = await record.resource.findById(id);
       record.storeParams(updatedRecord);
       return record;
-    } catch (error) {
+    }
+    catch (error) {
       if (error.name === SEQUELIZE_VALIDATION_ERROR) {
         throw createValidationError(error);
       }

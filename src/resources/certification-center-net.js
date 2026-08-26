@@ -1,8 +1,8 @@
-import { models, modelsExt } from '../sequelize.js';
 import { config } from '../config.js';
 import { creationHandler } from '../handlers/creation-handler.js';
-import { readOnlyOptions } from './utils.js';
 import { editHandler } from '../handlers/edit-handler.js';
+import { models, modelsExt } from '../sequelize.js';
+import { readOnlyOptions } from './utils.js';
 
 async function create(params, t) {
   const created = await models.CertificationCenterNet.create(params, { transaction: t });
