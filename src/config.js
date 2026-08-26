@@ -1,6 +1,6 @@
-import 'dotenv/config.js';
 import { env } from 'node:process';
 import Joi from 'joi';
+import 'dotenv/config.js';
 
 const requiredEnvVars = Joi.object({
   PORT: Joi.number().default(3000),

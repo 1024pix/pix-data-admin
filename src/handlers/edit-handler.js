@@ -16,7 +16,8 @@ async function editInTransaction({ params, record, edit }) {
       const updatedRecord = await record.resource.findById(id);
       record.storeParams(updatedRecord);
       return record;
-    } catch (error) {
+    }
+    catch (error) {
       if (error.name === SEQUELIZE_VALIDATION_ERROR) {
         throw createValidationError(error);
       }

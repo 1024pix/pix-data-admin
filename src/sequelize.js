@@ -27,4 +27,4 @@ if (config.externalIsActive) {
   };
 }
 
-export { sequelize, DataTypes, models, sequelizeExt, modelsExt };
+export { DataTypes, models, modelsExt, sequelize, sequelizeExt };
