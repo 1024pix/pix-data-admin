@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.22](https://github.com/1024pix/pix-data-admin/compare/v1.0.21...v1.0.22) (2026-09-09)
+
+### :arrow_up: Montée de version
+
+- [#42](https://github.com/1024pix/pix-data-admin/pull/42) Update dependency joi to v18.2.5 [SECURITY]
+
 ## [1.0.21](https://github.com/1024pix/pix-data-admin/compare/v1.0.20...v1.0.21) (2026-08-26)
 
 ### :bug: Correction
