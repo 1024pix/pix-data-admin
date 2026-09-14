@@ -15,8 +15,14 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   CertificationCentersNetLink.init({
-    certification_center_id: DataTypes.INTEGER,
-    certification_centers_net_id: DataTypes.INTEGER,
+    certification_center_id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+    },
+    certification_centers_net_id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+    },
   }, {
     sequelize,
     modelName: 'CertificationCentersNetLink',
