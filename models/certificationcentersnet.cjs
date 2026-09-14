@@ -20,8 +20,7 @@ module.exports = (sequelize, DataTypes) => {
     sequelize,
     modelName: 'CertificationCentersNet',
     tableName: 'data_certification_centers_net',
-    updatedAt: false,
-    createdAt: false,
+    timestamps: false,
   });
   return CertificationCentersNet;
 };

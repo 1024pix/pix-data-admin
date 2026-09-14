@@ -48,7 +48,7 @@ Variables optionnelles pour tests / base externe :
 ## Scripts utiles
 
 - **Start** : `npm start` — démarre l'application
-- **DB Create** : `npm run db:create`
+- **DB Create** : `psql -h localhost -p 5432 -U postgres -c "CREATE DATABASE pix_data_admin_dev;"`
 - **DB Migrate** : `npm run db:migrate`
 - **DB Seed** : `npm run db:seed`
 - **DB Reset** (drop + create + migrate + seed) : `npm run db:reset`
