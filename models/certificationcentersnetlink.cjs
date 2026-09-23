@@ -21,7 +21,6 @@ module.exports = (sequelize, DataTypes) => {
     },
     certification_centers_net_id: {
       type: DataTypes.INTEGER,
-      primaryKey: true,
     },
   }, {
     sequelize,
