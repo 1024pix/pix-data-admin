@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.24](https://github.com/1024pix/pix-data-admin/compare/v1.0.23...v1.0.24) (2026-09-23)
+
+### :bug: Correction
+
+- [#44](https://github.com/1024pix/pix-data-admin/pull/44) Mise à jour de lien entre centre de certif et réseau impossible (PIX-24271)
+
 ## [1.0.23](https://github.com/1024pix/pix-data-admin/compare/v1.0.22...v1.0.23) (2026-09-14)
 
 ### :bug: Correction
