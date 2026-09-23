@@ -24,23 +24,6 @@ module.exports = {
           key: 'id',
         },
         allowNull: false,
-        primaryKey: true,
-      },
-      createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
-      },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
-      },
-    }, {
-      uniqueKeys: {
-        net_link_unique: {
-          fields: ['certification_center_id', 'certification_centers_net_id'],
-        },
       },
     });
   },
