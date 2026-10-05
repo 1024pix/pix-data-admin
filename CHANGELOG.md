@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.26](https://github.com/1024pix/pix-data-admin/compare/v1.0.25...v1.0.26) (2026-10-05)
+
+### :arrow_up: Montée de version
+
+- [#47](https://github.com/1024pix/pix-data-admin/pull/47) Update 1024pix/pix-actions digest to b4d1020
+
 ## [1.0.25](https://github.com/1024pix/pix-data-admin/compare/v1.0.24...v1.0.25) (2026-10-05)
 
 ### :arrow_up: Montée de version
