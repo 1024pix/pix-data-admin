@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.27](https://github.com/1024pix/pix-data-admin/compare/v1.0.26...v1.0.27) (2026-10-12)
+
+### :building_construction: Tech
+
+- [#48](https://github.com/1024pix/pix-data-admin/pull/48) Update renovate configuration to include js-app
+
 ## [1.0.26](https://github.com/1024pix/pix-data-admin/compare/v1.0.25...v1.0.26) (2026-10-05)
 
 ### :arrow_up: Montée de version
