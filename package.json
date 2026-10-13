@@ -42,6 +42,6 @@
     "@antfu/eslint-config": "9.3.0",
     "eslint": "10.9.0",
     "eslint-plugin-format": "2.0.1",
-    "sequelize-cli": "6.6.3"
+    "sequelize-cli": "6.6.5"
   }
 }
