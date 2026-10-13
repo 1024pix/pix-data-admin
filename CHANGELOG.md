@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.29](https://github.com/1024pix/pix-data-admin/compare/v1.0.28...v1.0.29) (2026-10-13)
+
+### :arrow_up: Montée de version
+
+- [#51](https://github.com/1024pix/pix-data-admin/pull/51) Pin dependencies (dossier racine)
+
 ## [1.0.28](https://github.com/1024pix/pix-data-admin/compare/v1.0.27...v1.0.28) (2026-10-13)
 
 ### :arrow_up: Montée de version
