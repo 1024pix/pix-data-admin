@@ -1,5 +1,12 @@
 # Pix data admin Changelog
 
+## [1.0.28](https://github.com/1024pix/pix-data-admin/compare/v1.0.27...v1.0.28) (2026-10-13)
+
+### :arrow_up: Montée de version
+
+- [#49](https://github.com/1024pix/pix-data-admin/pull/49) Pin actions/checkout action to v7.0.1 (workflows)
+- [#50](https://github.com/1024pix/pix-data-admin/pull/50) Pin dependencies (dossier racine)
+
 ## [1.0.27](https://github.com/1024pix/pix-data-admin/compare/v1.0.26...v1.0.27) (2026-10-12)
 
 ### :building_construction: Tech
