@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.31](https://github.com/1024pix/pix-data-admin/compare/v1.0.30...v1.0.31) (2026-10-13)
+
+### :arrow_up: Montée de version
+
+- [#52](https://github.com/1024pix/pix-data-admin/pull/52) Update dependency sequelize-cli to v6.6.5 (dossier racine)
+
 ## [1.0.30](https://github.com/1024pix/pix-data-admin/compare/v1.0.29...v1.0.30) (2026-10-13)
 
 ### :arrow_up: Montée de version
