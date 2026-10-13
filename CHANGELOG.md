@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.30](https://github.com/1024pix/pix-data-admin/compare/v1.0.29...v1.0.30) (2026-10-13)
+
+### :arrow_up: Montée de version
+
+- [#53](https://github.com/1024pix/pix-data-admin/pull/53) Update hapijs monorepo (dossier racine)
+
 ## [1.0.29](https://github.com/1024pix/pix-data-admin/compare/v1.0.28...v1.0.29) (2026-10-13)
 
 ### :arrow_up: Montée de version
