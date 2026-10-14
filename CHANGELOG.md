@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.33](https://github.com/1024pix/pix-data-admin/compare/v1.0.32...v1.0.33) (2026-10-14)
+
+### :arrow_up: Montée de version
+
+- [#55](https://github.com/1024pix/pix-data-admin/pull/55) Update dependency dotenv to v17.4.2 (dossier racine)
+
 ## [1.0.32](https://github.com/1024pix/pix-data-admin/compare/v1.0.31...v1.0.32) (2026-10-14)
 
 ### :arrow_up: Montée de version
