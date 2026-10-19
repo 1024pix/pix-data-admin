@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.36](https://github.com/1024pix/pix-data-admin/compare/v1.0.35...v1.0.36) (2026-10-19)
+
+### :arrow_up: Montée de version
+
+- [#57](https://github.com/1024pix/pix-data-admin/pull/57) Update dependency pg to v8.23.1 (dossier racine)
+
 ## [1.0.35](https://github.com/1024pix/pix-data-admin/compare/v1.0.34...v1.0.35) (2026-10-19)
 
 ### :arrow_up: Montée de version
