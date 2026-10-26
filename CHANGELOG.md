@@ -1,5 +1,12 @@
 # Pix data admin Changelog
 
+## [1.0.39](https://github.com/1024pix/pix-data-admin/compare/v1.0.38...v1.0.39) (2026-10-26)
+
+### :arrow_up: Montée de version
+
+- [#61](https://github.com/1024pix/pix-data-admin/pull/61) Update dependency eslint to v10.13.0 (dossier racine)
+- [#62](https://github.com/1024pix/pix-data-admin/pull/62) Update dependency joi to v18.3.0 (dossier racine)
+
 ## [1.0.38](https://github.com/1024pix/pix-data-admin/compare/v1.0.37...v1.0.38) (2026-10-22)
 
 ### :arrow_up: Montée de version
