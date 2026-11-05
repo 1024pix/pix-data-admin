@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.44](https://github.com/1024pix/pix-data-admin/compare/v1.0.43...v1.0.44) (2026-11-05)
+
+### :arrow_up: Montée de version
+
+- [#67](https://github.com/1024pix/pix-data-admin/pull/67) Update dependency @hapi/hapi to v21.4.12 (dossier racine)
+
 ## [1.0.43](https://github.com/1024pix/pix-data-admin/compare/v1.0.42...v1.0.43) (2026-11-02)
 
 ### :arrow_up: Montée de version
