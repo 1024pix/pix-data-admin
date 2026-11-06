@@ -1,5 +1,11 @@
 # Pix data admin Changelog
 
+## [1.0.45](https://github.com/1024pix/pix-data-admin/compare/v1.0.44...v1.0.45) (2026-11-06)
+
+### :arrow_up: Montée de version
+
+- [#68](https://github.com/1024pix/pix-data-admin/pull/68) Update 1024pix/pix-actions digest to 44ba0bb (workflows)
+
 ## [1.0.44](https://github.com/1024pix/pix-data-admin/compare/v1.0.43...v1.0.44) (2026-11-05)
 
 ### :arrow_up: Montée de version
